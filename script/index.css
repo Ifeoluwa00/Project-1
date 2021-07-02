@@ -1,5 +1,107 @@
-*, body, html{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation-name: color;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+@keyframes color {
+  0% {
+    background-color: #fce181;
+  }
+  50% {
+    background-color: #026680;
+  }
+  100% {
+    background-color: #123c69;
+  }
+}
+#star_wars_logo {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  margin-top: 90px;
+  margin-left: 40px;
+  border-color: rgb(215, 241, 163);
+  border-style: solid;
+  border-radius: 20px;
+}
+#star_wars_logo:hover {
+  height: 110px;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  background-color: darkgreen;
+  align-items: center;
+  font-size: 25px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+.logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 20px;
+  color: white;
+}
+movies {
+  margin-top: 20px;
+}
+.movieslist {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.movieslist img {
+  border-radius: 20px;
+  height: 250px;
+  flex-basis: 20%;
+  flex: 1;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: flex;
+}
+.movieslist img:hover {
+  height: 255px;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+.movieitem {
+  align-items: center;
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  color: ghostwhite;
+  height: 35px;
+  padding: 5px;
+  cursor: pointer;
+}
+.movietext {
+  display: none;
+  border-radius: 20px;
 }
