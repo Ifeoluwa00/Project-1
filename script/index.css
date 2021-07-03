@@ -81,27 +81,36 @@ movies {
   flex: 1;
   margin-bottom: 40px;
   margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
   display: flex;
 }
 .movieslist img:hover {
-  height: 255px;
+  height: 270px;
   transition: ease-in;
-  transition-duration: 0.3s;
+  transition-duration: 0.4s;
 }
 
 .movieitem {
   align-items: center;
 }
-h2 {
+
+.hidden {
+  display: none;
+}
+
+.movietext {
+  cursor: pointer;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 15px;
   color: ghostwhite;
   height: 35px;
   padding: 5px;
-  cursor: pointer;
 }
-.movietext {
-  display: none;
-  border-radius: 20px;
+.card__details {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  color: ghostwhite;
 }
