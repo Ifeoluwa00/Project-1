@@ -1,4 +1,4 @@
-# Week-One-SQ008
+# project one
 
 ## Problem Description:
 
@@ -6,15 +6,15 @@ You are to create a SPA (single page application) using html, CSS and JavaScript
 
 ### Process ?
 
-1. Display a dummy image for all single characters
+1. I displayed a dummy image for all single characters
 
-2. Make a HTTP request to populate your frontend application using the API
- - Display a list with the names of each person from the API request.
- - On Clicking any name, display the details of that user on the screen, with name, gender, height only.
+2. I Made a HTTP request to populate your frontend application using the API
 
-3. All implementations should be done using es6.
+- I Displayed a list with the names of each person from the API request.
+- On Clicking any name, display the details of that user on the screen, with name, gender, height only.
 
-4. Make your design pretty and responsive.
+3. All implementations was done using es6.
 
-5. When you are done, host on heroku or netlify (link should be added to your turned in field on Teams)
+4. My design is pretty and responsive.
 
+5. I hosted on netlify

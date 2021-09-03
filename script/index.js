@@ -12,7 +12,6 @@ function main() {
     "Biggs Darklighter.jpeg",
     "Obi-Wan Kenobi.jpeg",
   ];
-
   document.addEventListener("DOMContentLoaded", () => {
     const url = "https://swapi.dev/api/people";
     output = "";
